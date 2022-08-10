@@ -107,7 +107,7 @@ on boot
     write /dev/cpuset/restricted/cpus 0-7
 
 # SSWAP
-    write /proc/sys/vm/swappiness 130
+    write /proc/sys/vm/swappiness 100
 
 on post-fs-data
     # MST/NFC Switch
