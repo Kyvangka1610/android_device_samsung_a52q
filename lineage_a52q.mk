@@ -41,6 +41,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+RICE_OFFICIAL := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_a52q
