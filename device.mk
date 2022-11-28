@@ -34,3 +34,7 @@ PRODUCT_COPY_FILES += \
 
 # Prop files
 TARGET_ODM_PROP += $(COMMON_PATH)/vendor.prop
+
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/dtb.img:dtb.img

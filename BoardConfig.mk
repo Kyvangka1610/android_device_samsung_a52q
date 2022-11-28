@@ -19,6 +19,10 @@ LOCAL_PATH := device/samsung/a52q
 include device/samsung/sm7125-common/BoardConfigCommon.mk
 
 # Kernel
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image
+TARGET_PREBUILT_DTB := $(LOCAL_PATH)/prebuilt/dtb.img
+BOARD_PREBUILT_DTBOIMAGE := $(LOCAL_PATH)/prebuilt/dtbo.img
 TARGET_KERNEL_CONFIG        := vendor/lineage-a52q_defconfig
 BOARD_NAME                  := SRPTH31C002
 
