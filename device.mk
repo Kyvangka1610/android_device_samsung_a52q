@@ -16,9 +16,7 @@
 
 LOCAL_PATH := device/samsung/a52q
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-xdroid
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # call the common setup
 $(call inherit-product, device/samsung/sm7125-common/common.mk)
