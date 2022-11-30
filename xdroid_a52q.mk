@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -34,8 +34,18 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Inherit some common AncientRoms stuff
+XDROID_BOOT := 1080
+#TARGET_FACE_UNLOCK_SUPPORTED := true
+XDROID_MAINTAINER := kyvangka1610
+TARGET_INCLUDE_STOCK_ARCORE := true
+#XDROID_UI_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := evolution_a52q
+PRODUCT_NAME := xdroid_a52q
 PRODUCT_DEVICE := a52q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A525F

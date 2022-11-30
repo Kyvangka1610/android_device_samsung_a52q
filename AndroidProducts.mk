@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_a52q.mk
+    $(LOCAL_DIR)/xdroid_a52q.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_a52q-userdebug \
-    evolution_a52q-user \
-    evolution_a52q-eng
+    xdroid_a52q-userdebug \
+    xdroid_a52q-user \
+    xdroid_a52q-eng
