@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a52q.mk
+    $(LOCAL_DIR)/cherish_a52q.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a52q-userdebug \
-    aosp_a52q-user \
-    aosp_a52q-eng
+    cherish_a52q-userdebug \
+    cherish_a52q-user \
+    cherish_a52q-eng
