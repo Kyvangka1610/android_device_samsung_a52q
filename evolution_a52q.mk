@@ -34,6 +34,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BUILD_APERTURE_CAMERA := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := evolution_a52q
