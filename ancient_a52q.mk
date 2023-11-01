@@ -36,6 +36,8 @@ TARGET_SCREEN_WIDTH := 1080
 # ancient stuff
 ANCIENT_OFFICIAL := true
 EXTRA_UDFPS_ANIMATIONS := true
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := ancient_a52q
